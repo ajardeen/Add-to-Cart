@@ -50,10 +50,10 @@ function CartModel({ cartProduct, setCartProduct }) {
 
       {isOpen && (
         <div className="absolute right-0 mt-2 w-[280%] md:w-96 bg-white rounded-lg shadow-xl z-10">
-          <div className="p-4 border-b border-gray-200">
-            <div className="flex justify-between items-center">
-              <h2 className="text-lg font-semibold ">
-                My Cart ({data.totalQuantity})
+          <div className="bg-gray-50 p-4 border-b border-gray-500 rounded-t-lg">
+            <div className=" flex justify-between items-center">
+              <h2 className=" text-sm md:text-lg font-semibold ">
+                MyCart ({data.totalQuantity})
               </h2>
               <a href="#" className="text-blue-500 text-sm">
                 View All
@@ -200,8 +200,8 @@ function CartModel({ cartProduct, setCartProduct }) {
               <div className="text-center p-4">your cart is empty</div>
             )}
           </div>
-          <div className="flex items-end justify-end p-2">
-            <h2 className="font-bold text-2xl mr-3">
+          <div className="bg-gray-200 shadow-md flex items-end justify-end p-2">
+            <h2 className="font-bold text-sm md:text-lg mr-3">
               Total :${data.totalPrice.toFixed(2)}
             </h2>
           </div>

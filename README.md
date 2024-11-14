@@ -4,9 +4,13 @@
 This ReactJS application demonstrates a basic e-commerce functionality, including product listing, cart management, and modal display.
 
 
-## Screenshots
+## Laptop Screenshots 
 
-![App Screenshot](./src/assets/Screenshot%20of%20Add%20to%20cart.png)
+![App Screenshot](./src/assets/Screenshot%20window.png)
+
+## Mobile Screenshots 
+
+![App Screenshot](./src/assets/Screenshot%20mobile1.png)![App Screenshot](./src/assets/Screenshot%20mobile2.png)
 
 
 ## Features

@@ -37,7 +37,7 @@ function HomePage() {
       <div className="sticky top-0 z-10 px-4 bg-white shadow-md py-2 text-xl">
         <NavBar cartProduct={cartProduct} setCartProduct={setCartProduct} />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 min-h-screen bg-gray-100 p-20">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 min-h-screen bg-gray-100 p-3 md:p-20">
         {products.map((product) => (
           <div key={product.id}>
             <ProductCard
